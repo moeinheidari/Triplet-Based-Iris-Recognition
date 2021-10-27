@@ -12,10 +12,11 @@ We used a siamese network with triplet loss. The architecture consists of a resn
 
 Each image goes through the network and results in a vector of size 128, the triplet loss between anchor, positive(image with same identity as anchor image) and  negative(image with different identity as anchor image)  is computed as follows :
 
-![Screenshot]https://github.com/moeinheidari/Triplet-Based-Iris-Recognition/blob/main/loss.png
+![Screenshot]https://github.com/moeinheidari/Triplet-Based-Iris-Recognition/blob/main/Images/dataset.png
 # Results
 Training curves :
 
 Dissimilarity scores for pairs of images in validation set :
+
 *Note that the leftmost image is the anchor image, the middle one is the positive and the rightmost image is the negative one.
 
