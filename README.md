@@ -11,8 +11,11 @@ Each image goes through the network and results in a vector of size 128, the tri
 ![Screenshot](https://github.com/moeinheidari/Triplet-Based-Iris-Recognition/blob/main/Images/network.png)
 ![Screenshot](https://github.com/moeinheidari/Triplet-Based-Iris-Recognition/blob/main/Images/Triplet_loss.png)
 # Results
+
 Training curves :
+
 ![Screenshot](https://github.com/moeinheidari/Triplet-Based-Iris-Recognition/blob/main/Images/loss.png)
+
 Dissimilarity scores for pairs of images in validation set :
 
 *Note that the leftmost image is the anchor image, the middle one is the positive and the rightmost image is the negative one.
